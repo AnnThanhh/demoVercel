@@ -1,0 +1,160 @@
+<!-- khai báo tài liệu html cmd + /, ctrl + /  -->
+<!DOCTYPE html>
+<!-- Thẻ bắt đầu của 1 tài liệu html  -->
+<html lang="en">
+  <!-- chứa thông tin về trang web vd: thẻ tiêu đề, css, meta tag -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- Hiển thị nội dung chính của web -->
+  <body>
+    <!-- thẻ tiêu đề -->
+    <!-- <h1>Hello World</h1>
+     <h2>Hello World</h2>
+     <h3>Hello World</h3>
+     <h4>Hello World</h4>
+     <h5>Hello World</h5>
+     <h6>Hello World</h6> -->
+    <!-- Thẻ văn bản  -->
+    <!-- <p>Trinh An Thanh - bcs15</p>
+    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, neque.</span> -->
+    <!-- Thẻ hình  -->
+    <!-- Liên kết ngoại - sử dụng tài nguyên trên web
+     Liên kết nội - sử dụng tài nguyên trên folder -->
+    <!-- <img src="./img/chilling-cafe-01.jpg" alt=""> -->
+    <div>
+      <h1
+        style="color: aqua; background-color: black; text-align: center"
+        id="bcs15"
+      >
+        CyberSoft Cafe
+      </h1>
+
+      <a href="https://www.facebook.com/">Home</a>
+      <a href="#bcs15">Menu</a>
+      <a href="#">Order</a>
+    </div>
+    <hr width="50%" size="5" noshade />
+    <div>
+      <h1 style="color: red; text-align: center">About our Cafe</h1>
+      <p style="text-align: right">
+        Lorem ipsum dolor <i>sit amet consectetur</i> adipisicing elit. <br />
+        Dolorem necessitatibus voluptas quos quaerat molestiae.
+        <b>Tempore earum debitis</b> nisi maiores. <br />
+        Quaerat labore in sunt aut rem perspiciatis provident culpa esse.
+        Laudantium.
+      </p>
+    </div>
+    <hr width="50%" size="5" noshade />
+    <div>
+      <h1 style="color: red; text-align: center">Special item</h1>
+      <h4>The coffe list 1</h4>
+      <ul type="circle">
+        <li>Black coffe</li>
+        <li>Pink Coffee</li>
+        <li>Gree</li>
+      </ul>
+      <img src="./img/chilling-cafe-11.jpg" alt="" />
+      <img src="./img/chilling-cafe-12.jpg" alt="" />
+      <h4>The coffe list 2</h4>
+      <ol type="I">
+        <li>Soft deli cup</li>
+        <li>coffee art</li>
+        <li>Specialty coffee</li>
+      </ol>
+      <img src="./img/chilling-cafe-12.jpg" alt="hình cafe" />
+    </div>
+    <hr width="50%" size="5" noshade />
+    <div>
+      <h1 style="color: red; text-align: center">Menu</h1>
+      <!-- khai báo table  -->
+      <table
+        border="1"
+        cellspacing="0"
+        cellpadding="10"
+        align="center"
+        width="700"
+      >
+        <!-- Tạo phần head cho table  -->
+        <thead>
+          <!-- Tạo dòng -->
+          <tr bgcolor="aqua">
+            <!-- Tạo tiêu đề  -->
+            <th colspan="2">Name</th>
+            <th>Type</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!-- Tạo nội dung  -->
+            <td
+              rowspan="4"
+              background="./img/chilling-cafe-13.jpg"
+              style="color: aqua"
+            >
+              Traditional Coffee
+            </td>
+            <td rowspan="2">Vietnamese Coffee pin</td>
+            <td>Hot</td>
+            <td>60,000</td>
+          </tr>
+          <tr>
+            <td>Cold</td>
+            <td>28,000</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Milk Coffee</td>
+            <td>Hot</td>
+            <td>38,000</td>
+          </tr>
+          <tr>
+            <td>Cold</td>
+            <td>54,000</td>
+          </tr>
+          <tr>
+            <td rowspan="3" background="./img/chilling-cafe-12.jpg">
+              Expresso
+            </td>
+            <td>American Coffee</td>
+            <td rowspan="3">Hot</td>
+            <td>110,000</td>
+          </tr>
+          <tr>
+            <td>Machiato</td>
+            <td rowspan="2">40,000</td>
+          </tr>
+          <tr>
+            <td>Cappuchino</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr width="50%" size="5" noshade />
+    <div>
+      <h1 style="color: red; text-align: center">Talk to us</h1>
+      <p style="text-align:center">
+        reach us via <b>Email</b>
+        <a href="mailto:cybersoft@gmail.com">cybersoft@gmail.com</a>
+        or <b>Hotline</b> 
+        <a href="tel:0909090">09090909</a>
+      </p>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /><br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </body>
+</html>
